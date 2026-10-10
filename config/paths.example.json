@@ -1,0 +1,5 @@
+{
+  "data_project": "/absolute/path/to/activation-assets",
+  "main_campaign": "/absolute/path/to/main-inputs",
+  "behavior_campaign": "/absolute/path/to/behavior-inputs"
+}
