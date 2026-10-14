@@ -1,0 +1,16 @@
+n_train,family,rank,scale_mode,sample_scale,global_validation_energy,heteroscedastic_validation_energy,source
+100,diagonal,0,global,2.0,0.1252542676180601,0.12615666238963605,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_000100/results.json
+250,lowrank_diagonal,256,global,2.0,0.11373036563396453,0.11644815026596189,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_000250/results.json
+500,lowrank_diagonal,512,global,2.0,0.10685004189610481,0.10930713016167283,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_000500/results.json
+1000,isotropic,0,global,1.5,0.09974066652357579,0.10195455586165189,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_001000/results.json
+2500,lowrank_diagonal,64,global,1.5,0.09105727826803922,0.09311564657464623,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_002500/results.json
+5000,lowrank_diagonal,256,global,1.5,0.08581479900330305,0.08684804281592369,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_005000/results.json
+10000,lowrank_diagonal,64,global,1.5,0.08153288967162371,0.08172877067141235,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_010000/results.json
+20000,lowrank_diagonal,512,global,1.25,0.0764169823601842,0.07658700686134398,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_020000/results.json
+28600,lowrank_diagonal,256,global,1.25,0.074193881906569,0.07438661238737404,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_028600/results.json
+50000,lowrank_diagonal,512,global,1.25,0.07218240617215634,0.07231270918063819,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_050000/results.json
+75000,lowrank_diagonal,256,global,1.25,0.07079357126355171,0.07096099095419049,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_075000/results.json
+100000,isotropic,0,global,1.25,0.06992314414680004,0.07000856854952872,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_100000/results.json
+200000,diagonal,0,heteroscedastic,1.25,0.06809586326777935,0.0678429086394608,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_200000/results.json
+300000,lowrank_diagonal,512,heteroscedastic,1.25,0.06724672605097294,0.06675641703978182,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_300000/results.json
+500000,lowrank_diagonal,256,heteroscedastic,1.25,0.06602567775547505,0.06552478541247547,rollout_cap_4096_20261013/paper_results_fixed_selection/evaluations/main/train_500000/results.json

@@ -1,0 +1,97 @@
+{
+  "model_id": "Qwen/Qwen3.5-9B",
+  "model_revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "layer": 18,
+  "generation": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "max_new_tokens": 4096,
+    "max_model_len": 8192,
+    "enable_thinking": false,
+    "seeds": [
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  "split_counts": {
+    "train": 1596,
+    "validation": 532,
+    "test": 532
+  },
+  "judge": {
+    "model": "gpt-6-luna",
+    "reasoning_effort": "none",
+    "draws_per_rollout": 1,
+    "max_output_tokens": 1024,
+    "api_mode": "standard",
+    "store": false
+  },
+  "events": [
+    "any_target_behavior",
+    "any_safety_failure",
+    "self_harm_or_eating_disorder",
+    "deception_or_false_capability"
+  ],
+  "metamodel": {
+    "families": [
+      "linear",
+      "mlp",
+      "gaussian",
+      "flow"
+    ],
+    "regime": "combined",
+    "lmsys_train": 500000,
+    "weirdchat_train": 1596,
+    "domain_weight": 0.5,
+    "validation": "mean LMSYS/WeirdChat validation R2 for point models; energy for flow and Gaussian",
+    "training_targets": "500000 LMSYS prompts and 1596 WeirdChat training prompts, with four 4096-token-budget rollouts per prompt."
+  },
+  "flow": {
+    "samples": 1024,
+    "euler_steps": 32
+  },
+  "probe": {
+    "heads": [
+      "logistic",
+      "mlp_256"
+    ],
+    "max_steps": {
+      "answer_and_pooled_context": 4000,
+      "attention_context": 6000
+    },
+    "learning_rate": 0.0003,
+    "weight_decay": 0.001,
+    "validation_interval": 100,
+    "patience": 10,
+    "selection": "validation log loss only",
+    "seed": 20260826,
+    "batch_size": {
+      "answer_and_pooled_context": 512,
+      "attention_context": "min(256, train prompts)"
+    },
+    "seed_offsets": {
+      "any_target_behavior": 0,
+      "any_safety_failure": 1,
+      "self_harm_or_eating_disorder": 2,
+      "deception_or_false_capability": 4
+    }
+  },
+  "invalid_judge_policy": "Never convert missing/refused/incomplete judge outputs into false labels. Halt the label merge until coverage is resolved.",
+  "gaussian": {
+    "samples": 1024,
+    "mean": "newly trained mixed MLP; frozen only during Gaussian fitting and probe evaluation",
+    "covariance_families": [
+      "isotropic",
+      "diagonal",
+      "lowrank_diagonal"
+    ],
+    "ranks": [
+      64,
+      256,
+      512
+    ],
+    "selection": "mean LMSYS/WeirdChat validation energy; 50/50 training-domain weight"
+  }
+}

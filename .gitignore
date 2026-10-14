@@ -1,0 +1,15 @@
+/runs/
+/data/
+/checkpoints/
+/outputs/
+/maintenance/
+/config/paths.json
+/.venv/
+/.cache/
+/.ruff_cache/
+/.secrets/
+.env
+__pycache__/
+*.py[cod]
+*.log
+slurm-*.out
