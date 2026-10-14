@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "evaluation_generation_max_new_tokens": 4096,
+  "source_campaign": "unique_prompt_rerun_20261005",
+  "evaluation_campaign": "rollout_cap_4096_20261013",
+  "behavior_campaign": "weirdchat_luna_4096_20261008",
+  "source_manifest_sha256": "807c294105739f81c404d8f25e4adcf6a940d7517f96d16700b1b1869b05f5db",
+  "main_evaluations": 15,
+  "representation_evaluations": 165,
+  "files_sha256": {
+    "unique_appendix_r2.csv": "ecc5acad5dbff07d529795449a8eaaeca2eecfb0846557d33bbd16aae9d939f8",
+    "unique_cross_gemma.csv": "aee912c437493063fcd7fa896c31d147470d9908ebcb5df219476018bb81aed3",
+    "unique_cross_gemma_auxiliary.csv": "5a713d24e3046801c9a8be5785109c3e5a1ff01f5df49a77fe4ba01ebe1c17f7",
+    "unique_cross_qwen35.csv": "51ac1f969ff9145f2c9b4e34a0aea09538132d248c0be90a1cac007192751590",
+    "unique_cross_qwen35_auxiliary.csv": "f50e7d47835b686a9e66acbd0251d3c09a7a82cc1ae5e6f20b9c6d04f0581bef",
+    "unique_flow_representations_ifeval.csv": "3063636b62f18f6e453696627ebfe75a08241505e351367f2b58a55e67a4bb10",
+    "unique_flow_representations_lmsys.csv": "5ca7c96c5853c451c71c5ef5e88d162898d14db27b0d577fa8c384bffff4898f",
+    "unique_flow_representations_weirdchat.csv": "f1fe8449fb9d6f365a1aebf242330bdfd9896b87842ea211629301b075872bd1",
+    "unique_gaussian_selection.csv": "71cdf2e1baf32fdea632799c2cf1fdc2ddae7a148d695998410dcca1ea1f243c",
+    "unique_layer_selection.csv": "b87b78563517673346dc0fdc6e4922060acf10d6f57261101719102ccd932ebc",
+    "unique_linear_representations.csv": "15dfc34e0db1323ef739275e87a94283e2df5f2987cb645be78f3917a6c3f75b",
+    "unique_main_auxiliary.csv": "ff03709ca42a6f06cf2ef93a14ec14897c6743f702dc3a7f5da3423f62b8da27",
+    "unique_main_metrics.csv": "0ef409ef9864d367fb2d2f49b28f14becf7150e4ab500e5fa9ab276168ca80e5",
+    "unique_mlp_representations_ifeval.csv": "d79a449d238d0e7487cd691dffebde14af1dd41d715267a7e37b40d51ed89a45",
+    "unique_mlp_representations_lmsys.csv": "ba1eeaf7b4700035271c66587f07362af9b115657bfac6909e7ce92d37d62596",
+    "unique_mlp_representations_weirdchat.csv": "af0f16526c2d8262e571324b161e31692bb7e78a4e38f337e66c9236db85d846",
+    "unique_probes.csv": "22f585ec4b120d88a3332159f4c16d4171b019f83ee6eff80873938489ae36a7",
+    "unique_rollout_count.csv": "4c9cc16d95bf08696ffccf67926d0023eae43a889b230490cfc9a16e0592fe2b"
+  }
+}

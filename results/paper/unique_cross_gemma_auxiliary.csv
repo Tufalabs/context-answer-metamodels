@@ -1,0 +1,97 @@
+conditioner,family,n_train,replicate,nll_raw,predictive_mmd2,predictive_sliced_w2,source
+Gemma 4 -> Gemma 4,flow,100,0,-2.6539108288171587,0.6535441537834704,0.8342945391237736,source_results/fits/cross/gemma/gemma/flow/replicate_0/train_000100/results.json
+Gemma 4 -> Gemma 4,flow,300,0,-2.9153901933769175,0.6253123674988746,0.8558131495813529,source_results/fits/cross/gemma/gemma/flow/replicate_0/train_000300/results.json
+Gemma 4 -> Gemma 4,flow,1000,0,-3.038369474592555,0.5156871773352225,0.7034076273490986,source_results/fits/cross/gemma/gemma/flow/replicate_0/train_001000/results.json
+Gemma 4 -> Gemma 4,flow,3000,0,-3.1754968630886546,0.4765349944829941,0.678529541939497,source_results/fits/cross/gemma/gemma/flow/replicate_0/train_003000/results.json
+Gemma 4 -> Gemma 4,flow,10000,0,-3.527195291101645,0.3546293990413348,0.5337383506447076,source_results/fits/cross/gemma/gemma/flow/replicate_0/train_010000/results.json
+Gemma 4 -> Gemma 4,flow,28600,0,-3.716618570649051,0.28398670469845333,0.45798468723893165,source_results/fits/cross/gemma/gemma/flow/replicate_0/train_028600/results.json
+Gemma 4 -> Gemma 4,flow,50000,0,-3.7708530010615764,0.259691166618218,0.43182950911919277,source_results/fits/cross/gemma/gemma/flow/replicate_0/train_050000/results.json
+Gemma 4 -> Gemma 4,flow,100000,0,-3.836617481698884,0.2369072834867984,0.40984013134241104,source_results/fits/cross/gemma/gemma/flow/replicate_0/train_100000/results.json
+Gemma 4 -> Gemma 4,flow,100,1,-2.7498455458017883,0.6469573460221291,0.8433746724923452,source_results/fits/cross/gemma/gemma/flow/replicate_1/train_000100/results.json
+Gemma 4 -> Gemma 4,flow,300,1,-2.9163918783033678,0.6252404700318972,0.8414231099188327,source_results/fits/cross/gemma/gemma/flow/replicate_1/train_000300/results.json
+Gemma 4 -> Gemma 4,flow,1000,1,-3.0370071618328165,0.5120612921540936,0.6935167938321829,source_results/fits/cross/gemma/gemma/flow/replicate_1/train_001000/results.json
+Gemma 4 -> Gemma 4,flow,3000,1,-3.1761157218172125,0.4759161427070697,0.6816768286625544,source_results/fits/cross/gemma/gemma/flow/replicate_1/train_003000/results.json
+Gemma 4 -> Gemma 4,flow,10000,1,-3.521510100747957,0.3655545067389806,0.5531248168746631,source_results/fits/cross/gemma/gemma/flow/replicate_1/train_010000/results.json
+Gemma 4 -> Gemma 4,flow,28600,1,-3.708888461330706,0.28682679304728903,0.4637795587182045,source_results/fits/cross/gemma/gemma/flow/replicate_1/train_028600/results.json
+Gemma 4 -> Gemma 4,flow,50000,1,-3.7701855746974875,0.2561903688143939,0.4259007764657338,source_results/fits/cross/gemma/gemma/flow/replicate_1/train_050000/results.json
+Gemma 4 -> Gemma 4,flow,100000,1,-3.8363211612127976,0.23259777986568708,0.40099679941435656,source_results/fits/cross/gemma/gemma/flow/replicate_1/train_100000/results.json
+Gemma 4 -> Gemma 4,flow,100,2,-2.799723694163829,0.6836824679523706,0.9068927599887053,source_results/fits/cross/gemma/gemma/flow/replicate_2/train_000100/results.json
+Gemma 4 -> Gemma 4,flow,300,2,-2.9111075148994514,0.6208510732054711,0.8284812250932058,source_results/fits/cross/gemma/gemma/flow/replicate_2/train_000300/results.json
+Gemma 4 -> Gemma 4,flow,1000,2,-3.049675054275367,0.5164545644794901,0.7053400021642446,source_results/fits/cross/gemma/gemma/flow/replicate_2/train_001000/results.json
+Gemma 4 -> Gemma 4,flow,3000,2,-3.24739207298643,0.4403108654891451,0.6263534260739883,source_results/fits/cross/gemma/gemma/flow/replicate_2/train_003000/results.json
+Gemma 4 -> Gemma 4,flow,10000,2,-3.517546365680584,0.3658967014973362,0.5537353079020977,source_results/fits/cross/gemma/gemma/flow/replicate_2/train_010000/results.json
+Gemma 4 -> Gemma 4,flow,28600,2,-3.709912090647184,0.2891497176662087,0.46468369497358797,source_results/fits/cross/gemma/gemma/flow/replicate_2/train_028600/results.json
+Gemma 4 -> Gemma 4,flow,50000,2,-3.767352621585113,0.26195630040888984,0.4366211909800768,source_results/fits/cross/gemma/gemma/flow/replicate_2/train_050000/results.json
+Gemma 4 -> Gemma 4,flow,100000,2,-3.834021999232025,0.22930690217328567,0.395711383116742,source_results/fits/cross/gemma/gemma/flow/replicate_2/train_100000/results.json
+Gemma 4 -> Gemma 4,gaussian,100,0,4.099272770212491,0.6788114148428043,0.8734171852966149,source_results/fits/cross/gemma/gemma/gaussian/replicate_0/train_000100/results.json
+Gemma 4 -> Gemma 4,gaussian,300,0,0.40115939599735007,0.6442796128938596,0.8346008994777997,source_results/fits/cross/gemma/gemma/gaussian/replicate_0/train_000300/results.json
+Gemma 4 -> Gemma 4,gaussian,1000,0,0.08776108576701622,0.5667006686727206,0.7631510393917561,source_results/fits/cross/gemma/gemma/gaussian/replicate_0/train_001000/results.json
+Gemma 4 -> Gemma 4,gaussian,3000,0,-1.466278974412229,0.5000620858073235,0.7013659414152305,source_results/fits/cross/gemma/gemma/gaussian/replicate_0/train_003000/results.json
+Gemma 4 -> Gemma 4,gaussian,10000,0,-2.879661727768219,0.4051565525283416,0.5900114264984926,source_results/fits/cross/gemma/gemma/gaussian/replicate_0/train_010000/results.json
+Gemma 4 -> Gemma 4,gaussian,28600,0,-3.0174013502728783,0.3624866025000811,0.5490246160129706,source_results/fits/cross/gemma/gemma/gaussian/replicate_0/train_028600/results.json
+Gemma 4 -> Gemma 4,gaussian,50000,0,-2.1244971019701855,0.3223099320506056,0.5005010577936967,source_results/fits/cross/gemma/gemma/gaussian/replicate_0/train_050000/results.json
+Gemma 4 -> Gemma 4,gaussian,100000,0,-2.7171574863532744,0.2883173854673902,0.4616638607134422,source_results/fits/cross/gemma/gemma/gaussian/replicate_0/train_100000/results.json
+Gemma 4 -> Gemma 4,gaussian,100,1,4.35312809614649,0.6851704559226831,0.8778982780873775,source_results/fits/cross/gemma/gemma/gaussian/replicate_1/train_000100/results.json
+Gemma 4 -> Gemma 4,gaussian,300,1,5.316825152563418,0.6350857469340165,0.8366057909230391,source_results/fits/cross/gemma/gemma/gaussian/replicate_1/train_000300/results.json
+Gemma 4 -> Gemma 4,gaussian,1000,1,0.4524142394930095,0.574796151821812,0.7705602331856887,source_results/fits/cross/gemma/gemma/gaussian/replicate_1/train_001000/results.json
+Gemma 4 -> Gemma 4,gaussian,3000,1,-2.18651821428432,0.4883788970460494,0.6874632476568222,source_results/fits/cross/gemma/gemma/gaussian/replicate_1/train_003000/results.json
+Gemma 4 -> Gemma 4,gaussian,10000,1,-2.9586912224899002,0.4004608285725117,0.5869235630532106,source_results/fits/cross/gemma/gemma/gaussian/replicate_1/train_010000/results.json
+Gemma 4 -> Gemma 4,gaussian,28600,1,-3.014298941405574,0.36329627449810503,0.5483170996208986,source_results/fits/cross/gemma/gemma/gaussian/replicate_1/train_028600/results.json
+Gemma 4 -> Gemma 4,gaussian,50000,1,-2.5390921067192993,0.3182378811687231,0.497889972448349,source_results/fits/cross/gemma/gemma/gaussian/replicate_1/train_050000/results.json
+Gemma 4 -> Gemma 4,gaussian,100000,1,-1.8730406415861578,0.3043583032861352,0.48668962451815606,source_results/fits/cross/gemma/gemma/gaussian/replicate_1/train_100000/results.json
+Gemma 4 -> Gemma 4,gaussian,100,2,418.6878587725389,0.6857574582944314,0.8859203471442063,source_results/fits/cross/gemma/gemma/gaussian/replicate_2/train_000100/results.json
+Gemma 4 -> Gemma 4,gaussian,300,2,5.879629358210241,0.6399174623886744,0.8397709579765796,source_results/fits/cross/gemma/gemma/gaussian/replicate_2/train_000300/results.json
+Gemma 4 -> Gemma 4,gaussian,1000,2,0.11977375664867133,0.5674016799877087,0.7634097242454688,source_results/fits/cross/gemma/gemma/gaussian/replicate_2/train_001000/results.json
+Gemma 4 -> Gemma 4,gaussian,3000,2,-1.9586342769533123,0.4881326952427626,0.6877861077884833,source_results/fits/cross/gemma/gemma/gaussian/replicate_2/train_003000/results.json
+Gemma 4 -> Gemma 4,gaussian,10000,2,-2.7923719353493643,0.4187690216451883,0.6127017393211523,source_results/fits/cross/gemma/gemma/gaussian/replicate_2/train_010000/results.json
+Gemma 4 -> Gemma 4,gaussian,28600,2,-2.5101971465885526,0.38989064685006936,0.5830904795626799,source_results/fits/cross/gemma/gemma/gaussian/replicate_2/train_028600/results.json
+Gemma 4 -> Gemma 4,gaussian,50000,2,-2.6743102697031382,0.31073045392086107,0.4869502829362949,source_results/fits/cross/gemma/gemma/gaussian/replicate_2/train_050000/results.json
+Gemma 4 -> Gemma 4,gaussian,100000,2,-2.748760182859951,0.28878349369267625,0.46382330487668516,source_results/fits/cross/gemma/gemma/gaussian/replicate_2/train_100000/results.json
+Qwen2.5 -> Gemma 4,flow,100,0,-2.748387769858807,0.691881447772185,0.9231161675453186,source_results/fits/cross/gemma/qwen25/flow/replicate_0/train_000100/results.json
+Qwen2.5 -> Gemma 4,flow,300,0,-2.909466822546203,0.6210923022826512,0.8600498305459817,source_results/fits/cross/gemma/qwen25/flow/replicate_0/train_000300/results.json
+Qwen2.5 -> Gemma 4,flow,1000,0,-3.037150666199677,0.5147875093494853,0.6941676125079393,source_results/fits/cross/gemma/qwen25/flow/replicate_0/train_001000/results.json
+Qwen2.5 -> Gemma 4,flow,3000,0,-3.2007805504874236,0.4759772778799137,0.6785946039060752,source_results/fits/cross/gemma/qwen25/flow/replicate_0/train_003000/results.json
+Qwen2.5 -> Gemma 4,flow,10000,0,-3.507377294931768,0.38532496493309737,0.5756127757827441,source_results/fits/cross/gemma/qwen25/flow/replicate_0/train_010000/results.json
+Qwen2.5 -> Gemma 4,flow,28600,0,-3.7073946103313107,0.3030346655001243,0.4793899184713761,source_results/fits/cross/gemma/qwen25/flow/replicate_0/train_028600/results.json
+Qwen2.5 -> Gemma 4,flow,50000,0,-3.7707009730995455,0.28705360984553896,0.46352470280230046,source_results/fits/cross/gemma/qwen25/flow/replicate_0/train_050000/results.json
+Qwen2.5 -> Gemma 4,flow,100000,0,-3.835837227543923,0.25489656409683326,0.42764329713086285,source_results/fits/cross/gemma/qwen25/flow/replicate_0/train_100000/results.json
+Qwen2.5 -> Gemma 4,flow,100,1,-2.733899996678799,0.6759108018428087,0.8882741045057774,source_results/fits/cross/gemma/qwen25/flow/replicate_1/train_000100/results.json
+Qwen2.5 -> Gemma 4,flow,300,1,-2.897677342321951,0.6234276689887047,0.8533455955783527,source_results/fits/cross/gemma/qwen25/flow/replicate_1/train_000300/results.json
+Qwen2.5 -> Gemma 4,flow,1000,1,-3.040605677184585,0.509142805804809,0.6883188886592786,source_results/fits/cross/gemma/qwen25/flow/replicate_1/train_001000/results.json
+Qwen2.5 -> Gemma 4,flow,3000,1,-3.184535757060247,0.4844612746089697,0.6917332686384519,source_results/fits/cross/gemma/qwen25/flow/replicate_1/train_003000/results.json
+Qwen2.5 -> Gemma 4,flow,10000,1,-3.504877779282662,0.38089609511444966,0.5700846160848936,source_results/fits/cross/gemma/qwen25/flow/replicate_1/train_010000/results.json
+Qwen2.5 -> Gemma 4,flow,28600,1,-3.706380603861679,0.3101923791964849,0.49001077648997304,source_results/fits/cross/gemma/qwen25/flow/replicate_1/train_028600/results.json
+Qwen2.5 -> Gemma 4,flow,50000,1,-3.7472864785279203,0.29054379607737063,0.46746351233124733,source_results/fits/cross/gemma/qwen25/flow/replicate_1/train_050000/results.json
+Qwen2.5 -> Gemma 4,flow,100000,1,-3.812794743779339,0.2793595820392172,0.46197385299702487,source_results/fits/cross/gemma/qwen25/flow/replicate_1/train_100000/results.json
+Qwen2.5 -> Gemma 4,flow,100,2,-2.750527575674921,0.6743694107830525,0.8890096587042013,source_results/fits/cross/gemma/qwen25/flow/replicate_2/train_000100/results.json
+Qwen2.5 -> Gemma 4,flow,300,2,-2.9075264343137333,0.6127861916373173,0.8223891163567701,source_results/fits/cross/gemma/qwen25/flow/replicate_2/train_000300/results.json
+Qwen2.5 -> Gemma 4,flow,1000,2,-3.0414895323175823,0.5246786221042276,0.7016638771841923,source_results/fits/cross/gemma/qwen25/flow/replicate_2/train_001000/results.json
+Qwen2.5 -> Gemma 4,flow,3000,2,-3.178032342697578,0.49684488388399284,0.7257654492855072,source_results/fits/cross/gemma/qwen25/flow/replicate_2/train_003000/results.json
+Qwen2.5 -> Gemma 4,flow,10000,2,-3.5146064710270473,0.3852305163418253,0.5777727840344111,source_results/fits/cross/gemma/qwen25/flow/replicate_2/train_010000/results.json
+Qwen2.5 -> Gemma 4,flow,28600,2,-3.702107366732297,0.30648284245779117,0.4834062175601721,source_results/fits/cross/gemma/qwen25/flow/replicate_2/train_028600/results.json
+Qwen2.5 -> Gemma 4,flow,50000,2,-3.759053168153722,0.2722996546148012,0.4412303952872753,source_results/fits/cross/gemma/qwen25/flow/replicate_2/train_050000/results.json
+Qwen2.5 -> Gemma 4,flow,100000,2,-3.828389863182199,0.2627253029880424,0.4364308904657761,source_results/fits/cross/gemma/qwen25/flow/replicate_2/train_100000/results.json
+Qwen2.5 -> Gemma 4,gaussian,100,0,3.858807148619519,0.6690345828384161,0.8625509982407094,source_results/fits/cross/gemma/qwen25/gaussian/replicate_0/train_000100/results.json
+Qwen2.5 -> Gemma 4,gaussian,300,0,0.11647916747097038,0.6302723903357983,0.8215248042742411,source_results/fits/cross/gemma/qwen25/gaussian/replicate_0/train_000300/results.json
+Qwen2.5 -> Gemma 4,gaussian,1000,0,-0.21758634881725053,0.5566823856135209,0.75577052907149,source_results/fits/cross/gemma/qwen25/gaussian/replicate_0/train_001000/results.json
+Qwen2.5 -> Gemma 4,gaussian,3000,0,-2.2668680009313986,0.482313059369723,0.6845932183762391,source_results/fits/cross/gemma/qwen25/gaussian/replicate_0/train_003000/results.json
+Qwen2.5 -> Gemma 4,gaussian,10000,0,-2.9031731484834076,0.41109965452551844,0.5969502368966738,source_results/fits/cross/gemma/qwen25/gaussian/replicate_0/train_010000/results.json
+Qwen2.5 -> Gemma 4,gaussian,28600,0,-2.9449150812406746,0.37583985705673695,0.56241437458992,source_results/fits/cross/gemma/qwen25/gaussian/replicate_0/train_028600/results.json
+Qwen2.5 -> Gemma 4,gaussian,50000,0,-2.2015075133651556,0.3396576165308555,0.5179150821367899,source_results/fits/cross/gemma/qwen25/gaussian/replicate_0/train_050000/results.json
+Qwen2.5 -> Gemma 4,gaussian,100000,0,-2.3192451396656146,0.3121345498934388,0.4871669503847758,source_results/fits/cross/gemma/qwen25/gaussian/replicate_0/train_100000/results.json
+Qwen2.5 -> Gemma 4,gaussian,100,1,3.748503249034142,0.6658901108950377,0.860027861982584,source_results/fits/cross/gemma/qwen25/gaussian/replicate_1/train_000100/results.json
+Qwen2.5 -> Gemma 4,gaussian,300,1,6.645030123887954,0.6394483464459578,0.8405352428158124,source_results/fits/cross/gemma/qwen25/gaussian/replicate_1/train_000300/results.json
+Qwen2.5 -> Gemma 4,gaussian,1000,1,-0.7563142568322823,0.5460219658315182,0.7430724335610867,source_results/fits/cross/gemma/qwen25/gaussian/replicate_1/train_001000/results.json
+Qwen2.5 -> Gemma 4,gaussian,3000,1,-2.490366227508914,0.4823969084769487,0.6814912670453389,source_results/fits/cross/gemma/qwen25/gaussian/replicate_1/train_003000/results.json
+Qwen2.5 -> Gemma 4,gaussian,10000,1,-2.909666505877654,0.41125637788077196,0.599133763730526,source_results/fits/cross/gemma/qwen25/gaussian/replicate_1/train_010000/results.json
+Qwen2.5 -> Gemma 4,gaussian,28600,1,-2.866571710056223,0.38062526534497737,0.5655419938762982,source_results/fits/cross/gemma/qwen25/gaussian/replicate_1/train_028600/results.json
+Qwen2.5 -> Gemma 4,gaussian,50000,1,-2.993781402066525,0.375338293582201,0.569447920491298,source_results/fits/cross/gemma/qwen25/gaussian/replicate_1/train_050000/results.json
+Qwen2.5 -> Gemma 4,gaussian,100000,1,-2.6034376000502863,0.3098705394342542,0.48657149527966975,source_results/fits/cross/gemma/qwen25/gaussian/replicate_1/train_100000/results.json
+Qwen2.5 -> Gemma 4,gaussian,100,2,420.6217988384209,0.6685864385093252,0.868940897633632,source_results/fits/cross/gemma/qwen25/gaussian/replicate_2/train_000100/results.json
+Qwen2.5 -> Gemma 4,gaussian,300,2,5.325918887631541,0.623510582998395,0.8228286766310533,source_results/fits/cross/gemma/qwen25/gaussian/replicate_2/train_000300/results.json
+Qwen2.5 -> Gemma 4,gaussian,1000,2,-0.7379173823777971,0.5466009968767563,0.7444718842407068,source_results/fits/cross/gemma/qwen25/gaussian/replicate_2/train_001000/results.json
+Qwen2.5 -> Gemma 4,gaussian,3000,2,-2.556931521279127,0.4824886905501286,0.682169132332007,source_results/fits/cross/gemma/qwen25/gaussian/replicate_2/train_003000/results.json
+Qwen2.5 -> Gemma 4,gaussian,10000,2,-2.8816416914960645,0.4129186266213655,0.599281249632438,source_results/fits/cross/gemma/qwen25/gaussian/replicate_2/train_010000/results.json
+Qwen2.5 -> Gemma 4,gaussian,28600,2,-2.5365994872176088,0.4018367187480132,0.5955977612137795,source_results/fits/cross/gemma/qwen25/gaussian/replicate_2/train_028600/results.json
+Qwen2.5 -> Gemma 4,gaussian,50000,2,-1.8923972846667443,0.35418547316640614,0.5342880376676719,source_results/fits/cross/gemma/qwen25/gaussian/replicate_2/train_050000/results.json
+Qwen2.5 -> Gemma 4,gaussian,100000,2,-2.237730230096766,0.3192217810104291,0.4999379739363988,source_results/fits/cross/gemma/qwen25/gaussian/replicate_2/train_100000/results.json
